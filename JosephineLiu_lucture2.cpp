@@ -15,6 +15,8 @@ int main(){
     bool boolean = false; //only for true or false
     string stri = "No"; //phrase
 
+    char charnumtwo = 'a';
+
     //slide 37
     int inches; //variable to store total inches
     inches = 100 ; //store 100 in the varible inches
