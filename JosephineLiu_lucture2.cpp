@@ -14,18 +14,16 @@ int main(){
     char charnum = 'f'; //letter
     bool boolean = false; //only for true or false
     string stri = "No"; //phrase
-
-    cout << "integer = "<< integer << endl;
-    cout << "float number = "<<floatnum << endl;
-    cout << "double number = "<<doublenum << endl;
-    cout << "character number = "<<charnum << endl;
-    cout << "boolean = " <<boolean << endl;
-    cout << "string = "<<stri << endl;
-
+    
+    cout << "integer = "<< integer << endl; //prints "integer =" and then prints the variable 
+    cout << "float number = "<<floatnum << endl; //prints "float number =" and then prints the variable 
+    cout << "double number = "<<doublenum << endl; //prints "double number =" and then prints the variable 
+    cout << "character number = "<<charnum << endl; //prints "character =" and then prints the variable 
+    cout << "boolean = " <<boolean << endl; //prints "boolean =" and then prints the variable 
+    cout << "string = "<<stri << endl; //prints "string =" and then prints the variable 
 
     char charnumtwo = 76;
     char charnumone = 89;
-    char symbol = 60;
 
     //slide 37
     int inches; //variable to store total inches
@@ -34,15 +32,12 @@ int main(){
     cout << inches << " Inch(es) = "; //output the value of inches and the equal sign
     cout << inches / 12 << " feet (foot) and "; //output maxium number of feet (foot)
     cout << inches % 12 << " inch(es) " << endl; //output remaining inches
-
     
     cout << "\n Compare: " <<charnumtwo<< "<" << charnumone<< ": " << (charnumtwo < charnumone) <<  endl; //compares the two numbers if 1 then true if 0 then false
 
     cout << "2+3.5 = " << 2+3.5 <<endl; //prints the number and actually solves it for all of the three.
     cout << "6 / 4 + 3.9 = " << 6 / 4 + 3.9 <<endl;
     cout << "5.4 * 2 - (13.6 + 18 / 2) = " << 5.4 * 2 - (13.6 + 18 / 2) <<endl;
-
-
 
     return 0;
 }
@@ -55,7 +50,8 @@ character number = f
 boolean = 0
 string = No
 100 Inch(es) = 8 feet (foot) and 4 inch(es) 
-Compare: 1
+
+ Compare: L<Y: 1
 2+3.5 = 5.5
 6 / 4 + 3.9 = 4.9
 5.4 * 2 - (13.6 + 18 / 2) = -11.8 */
