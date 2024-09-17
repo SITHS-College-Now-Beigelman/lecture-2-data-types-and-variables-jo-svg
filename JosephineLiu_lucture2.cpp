@@ -36,7 +36,7 @@ int main(){
     cout << inches % 12 << " inch(es) " << endl; //output remaining inches
 
     
-    cout << "Compare: " << (charnumtwo < charnumone) <<  endl; //compares the two numbers if 1 then true if 0 then false
+    cout << "\n Compare: " <<charnumtwo<< "<" << charnumone<< ": " << (charnumtwo < charnumone) <<  endl; //compares the two numbers if 1 then true if 0 then false
 
     cout << "2+3.5 = " << 2+3.5 <<endl; //prints the number and actually solves it for all of the three.
     cout << "6 / 4 + 3.9 = " << 6 / 4 + 3.9 <<endl;
@@ -48,8 +48,14 @@ int main(){
 }
 
 /* OUTPUT:
+integer = 4
+float number = 4.3
+double number = 9.4
+character number = f
+boolean = 0
+string = No
 100 Inch(es) = 8 feet (foot) and 4 inch(es) 
-f > a 
+Compare: 1
 2+3.5 = 5.5
 6 / 4 + 3.9 = 4.9
 5.4 * 2 - (13.6 + 18 / 2) = -11.8 */
